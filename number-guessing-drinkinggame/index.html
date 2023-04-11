@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link rel="favicon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="pre-title">MT</h1>
+        <h1 class="title">Drinking Game</h1>
+        <h1 class="sub-title"><span class="red-text">Ups and Downs</span> of Death</h1>
+        <div id="result-area">
+            <img src="https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif" class="main-img">
+            <h1 class="result-text">Guess if you don't want to die</h1>
+        </div>
+        <h2 id="chance-area">Remaining Chance:</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <input type="number" id="user-input" class="form-control mb-10" placeholder="Enter number from 1 to 100" />
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success mb-2 button-style" id="play-button">Go!!</button>
+            </div>
+        </div>
+
+    </div>
+    <button class="btn btn-warning mt-3 button-style button-reset">Reset!</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
